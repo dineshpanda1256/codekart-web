@@ -17,7 +17,7 @@ export default function RootRouter() {
         <Routes>
           <Route path={NavConstants.home} element={<Home />} />
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </Router>
     </>
   );

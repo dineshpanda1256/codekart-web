@@ -1,0 +1,38 @@
+#Solutions1{
+    background: linear-gradient(to right, #f08f04 0%, #fb6000 100%);
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    width: 7rem;
+    text-align: center;
+    margin-top: 1.7rem;
+    cursor: pointer;
+}
+#Solutions1:hover{
+    background: linear-gradient(to right, #fb6000 0%, #f08f04 100%);
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    width: 7rem;
+    text-align: center;
+    margin-top: 1.7rem;
+    cursor: pointer;
+}
+#Solutions2{
+    font-family: 'Poppins';
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+}
+#Solutions3{
+    margin-top: 1rem;
+    color: gray;
+
+}
+#Solutions4{
+    color: gray;
+}
+#Solutions5{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
