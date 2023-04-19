@@ -4,9 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { NavConstants } from "./NavConstants";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import HomeServices from "../pages/HomeServices/HomeServices";
+import Footer from "../components/Footer/Footer";
 
 export default function RootRouter() {
 
@@ -16,9 +15,9 @@ export default function RootRouter() {
       <Router>
         <Header/>
         <Routes>
-          <Route path={NavConstants.home} element={<HomeServices />} />
+          <Route path={NavConstants.home} element={<Home />} />
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </Router>
     </>
   );
