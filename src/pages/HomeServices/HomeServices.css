@@ -1,0 +1,44 @@
+#directionRowHomeservice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#homeservice1{
+  color: #2A3442;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+#homeservice2{
+  color: lightslategray;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#homeservice3 {
+  background: linear-gradient(90deg, #FF7B00 12.84%, #FFD600 82.49%);
+  height: 300px;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#homeservice4 {
+  width: 120px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#homeservice5 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#homeservice6 {
+  color: whitesmoke;
+  font-size: small;
+  font-weight: 500;
+}
+

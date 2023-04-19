@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
+import HomeServices from "../pages/HomeServices/HomeServices";
 
 export default function RootRouter() {
 
@@ -15,7 +16,7 @@ export default function RootRouter() {
       <Router>
         <Header/>
         <Routes>
-          <Route path={NavConstants.home} element={<Home />} />
+          <Route path={NavConstants.home} element={<HomeServices />} />
         </Routes>
         {/* <Footer/> */}
       </Router>
