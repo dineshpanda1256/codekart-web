@@ -1,6 +1,85 @@
 #Header1{
     color: black;
+    font-weight: 600;
 }
 #Header2{
-    background-color: transparent;
+    background-color: #fff6f1;
 }
+#Header3{
+    background: linear-gradient(to right, #f08f04 0%, #fb6000 100%);
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+}
+#Header3:hover{
+    background: linear-gradient(to right, #fb6000 0%, #f08f04 100%);
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+}
+#Header4{
+    margin-top: 1.8rem;
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+#Header5{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: poppins;
+}
+#Header6{
+    margin-top: 1.3rem;
+    color: gray;
+}
+#Header7{
+    padding-top: 2.5rem;
+}
+#Header8{
+    width: 98%;
+    height: 26rem;
+}
+#Header9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Header10{
+  align-items: center;
+}
+#Header11{
+   padding-left: 3rem;
+   color: black;
+    font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+    #Header8{
+        width: 100%;
+        height: 16rem;
+        margin-top: 1.4rem;
+    }
+    #Header7{
+        padding-top: 1rem;
+    }
+    #Header4{
+        margin-top: 1rem;
+        padding-bottom: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    #Header5{
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: poppins;
+    }
+    #Header10{
+        align-items: start;
+    }
+    #Header3{
+        width: 6rem;
+    text-align: center;
+    }
+    #Header11{
+        padding-left: 0rem;
+    }
+  }
