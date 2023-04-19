@@ -1,0 +1,10 @@
+#under1{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 2rem;
+}

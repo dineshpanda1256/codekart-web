@@ -6,6 +6,8 @@ import { RiFacebookCircleFill } from "react-icons/ri";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import logo from "../../assets/Images/Footer/Group 104.svg";
+import { Link } from "react-router-dom";
+import { NavConstants } from "../../navigations/NavConstants";
 
 export default function Footer() {
   return (
@@ -19,14 +21,12 @@ export default function Footer() {
             </Col>
             <Col md={3} lg={3} sm={12} xs={12}>
               <Row id="footer2">INFORMATION</Row>
-              <Row id="footer4">Pricing</Row>
-              <Row id="footer3">About Us</Row>
-              <Row id="footer3">Vedio Posts</Row>
+              <Row id="footer3"><Link to={NavConstants.underconstrunction} id="footer20">About Us</Link></Row>
             </Col>
             <Col md={3} lg={3} sm={12} xs={12}>
               <Row id="footer2">LEGAL</Row>
-              <Row id="footer4">Terms and Conditions</Row>
-              <Row id="footer3">Privacy Policy</Row>
+              <Row id="footer4"><Link to={NavConstants.underconstrunction} id="footer20">Terms and Conditions</Link></Row>
+              <Row id="footer3"><Link to={NavConstants.underconstrunction} id="footer20">Privacy Policy</Link></Row>
             </Col>
             <Col md={3} lg={3} sm={12} xs={12} id="footer2">
               SOICAL LINKS

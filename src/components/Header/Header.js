@@ -8,6 +8,10 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import "./Header.css";
 import { Col, Row } from "react-bootstrap";
 import { Images } from "../../constants/Images";
+import logo from "../../assets/Images/Navbar/logo.png";
+import { Link } from "react-router-dom";
+import { NavConstants } from "../../navigations/NavConstants/index";
+
 
 function Header() {
   return (
@@ -21,7 +25,7 @@ function Header() {
         >
           <Container fluid>
             <Navbar.Brand  id="Header11">
-              Navbar Offcanvas
+              <img src={logo} alt="logo" id="Header13"/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -37,15 +41,22 @@ function Header() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end  flex-grow-1 pe-5" id="Header10">
                   <Nav.Link eventKey="1" id="Header1">
+                  <Link to="/"  id="Header12">
                     Home
+                    </Link>
                   </Nav.Link>
                   <Nav.Link eventKey="2" id="Header1">
+                    <Link to={NavConstants.underconstrunction} id="Header12">
                     About Us
+                    </Link>
                   </Nav.Link>
-                  <Nav.Link eventKey="3"  id="Header1">Services</Nav.Link>
-                  <Nav.Link eventKey="4" id="Header1">Careers</Nav.Link>
+                  <Nav.Link eventKey="3"  id="Header1">
+                  <Link to={NavConstants.underconstrunction} id="Header12">Services</Link></Nav.Link>
+                  <Nav.Link eventKey="4" id="Header1"><Link to={NavConstants.underconstrunction} id="Header12">Careers</Link></Nav.Link>
                   <Nav.Link eventKey="5">
+                  <Link to={NavConstants.underconstrunction} id="Header12">
                     <div id="Header3">Contactus</div>
+                    </Link>
                   </Nav.Link>
                 </Nav>
               </Offcanvas.Body>

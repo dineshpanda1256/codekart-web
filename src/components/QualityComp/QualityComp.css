@@ -1,7 +1,8 @@
 #Quality1{
     background-color: #ffeeb6;
     padding:4rem 0 4rem 0;
-    margin-bottom: 1.9rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.6rem;
 }
 #Quality2{
     background: linear-gradient(to right, #f08f04 0%, #fb6000 100%);
@@ -12,6 +13,7 @@
     text-align: center;
     margin-top: 1.7rem;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 #Quality2:hover{
     background: linear-gradient(to right, #fb6000 0%, #f08f04 100%);
@@ -28,6 +30,7 @@
     font-size: 1.9rem;
     font-weight: 600;
     margin-bottom: 0.7rem;
+    margin-top: 3.5rem;
 }
 #Quality4{
     margin-top: 1rem;
@@ -35,4 +38,13 @@
 }
 #Quality5{
     color: gray;
+}
+#Quality6{
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #Quality1{
+        padding:2rem 0 4rem 0;
+    }
 }

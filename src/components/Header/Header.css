@@ -22,7 +22,7 @@
 #Header4{
     margin-top: 1.8rem;
     padding-bottom: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
 }
 #Header5{
     font-size: 3.5rem;
@@ -53,6 +53,13 @@
    color: black;
     font-weight: 500;
 }
+#Header12{
+    text-decoration: none;
+    color: black;
+}
+#Header13{
+    height: 4rem;
+}
 @media only screen and (max-width: 600px) {
     #Header8{
         width: 100%;
@@ -65,7 +72,7 @@
     #Header4{
         margin-top: 1rem;
         padding-bottom: 1.8rem;
-        margin-bottom: 2rem;
+        margin-bottom: -1rem;
     }
     #Header5{
         font-size: 3rem;
@@ -81,5 +88,8 @@
     }
     #Header11{
         padding-left: 0rem;
+    }
+    #Header13{
+        height: 3rem;
     }
   }

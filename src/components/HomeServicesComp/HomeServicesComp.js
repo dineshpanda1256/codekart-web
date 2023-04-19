@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeServicesComp.css";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 export default function HomeServicesComp(props) {
   return (

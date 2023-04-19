@@ -36,3 +36,30 @@
     padding-top: 1.5rem;
     padding-bottom: 2rem;
 }
+#Solutions6{
+    width: 77%;
+    height: 25rem;
+    margin-top: -1.5rem;
+}
+#Solutions7{
+    margin-top: 3rem;
+}
+#Solutions8{
+    width: 77%;
+    height: 25rem;
+    margin-top: -1.5rem;
+}
+@media only screen and (max-width: 600px) {
+    #Solutions6{
+        width: 100%;
+        height: 20rem;
+        margin-top: 0rem;
+    }
+    #Solutions8{
+        width: 100%;
+        height: 20rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+
+    }
+}

@@ -5,6 +5,8 @@ import { Container } from "react-bootstrap";
 import SolutionsComp from "../../components/SolutionsComp/SolutionsComp";
 import QualityComp from "../../components/QualityComp/QualityComp";
 import HomeServices from "../HomeServices/HomeServices";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
   const solutions = {
@@ -28,13 +30,15 @@ export default function Home() {
 
   return (
     <>
+        <Header/>
       <Container fluid>
-        {/* <img src={Images.home.image1} alt="img" /> */}
         <SolutionsComp sol={solutions} />
         <QualityComp quality={quality} />
-        <HomeServices />
-        {/* <SolutionsComp cli={clients}/> */}
+        {/* <HomeServices /> */}
+        <SolutionsComp cli={clients}/>
       </Container>
+      <Footer/>
+
     </>
   );
 }

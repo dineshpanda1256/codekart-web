@@ -1,9 +1,10 @@
 #homeservicecomp1 {
-    background: linear-gradient(45deg, #FF7B00 12.84%, #FFD600 82.49%);
-    height: 300px;
+    background: linear-gradient(45deg, #ed9905 12.84%, #fb6202 82.49%);
+    /* height: 300px; */
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 #homeservicecomp2 {
